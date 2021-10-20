@@ -1,0 +1,107 @@
+{
+  "uid" : "b3782023d2de66b7",
+  "name" : "Verify that user can successfully login with email that was just registered",
+  "fullName" : "Authentication.Verify that user can successfully login with email that was just registered",
+  "historyId" : "f730b43f19b45b8f9dafe0367d955458",
+  "time" : {
+    "start" : 1632420108226,
+    "stop" : 1632420115268,
+    "duration" : 7042
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Authentication"
+  }, {
+    "name" : "testClass",
+    "value" : "Authentication"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify that user can successfully login with email that was just registered"
+  }, {
+    "name" : "package",
+    "value" : "Authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c96a026217bb989b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632419897820,
+        "stop" : 1632419904307,
+        "duration" : 6487
+      }
+    }, {
+      "uid" : "5ce889bfa461c5b8",
+      "status" : "broken",
+      "statusDetails" : "userData2 is not defined",
+      "time" : {
+        "start" : 1632284847799,
+        "stop" : 1632284847812,
+        "duration" : 13
+      }
+    }, {
+      "uid" : "b3b14a14b69356b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632284606509,
+        "stop" : 1632284612845,
+        "duration" : 6336
+      }
+    }, {
+      "uid" : "454eceadc2778328",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632283709456,
+        "stop" : 1632283715927,
+        "duration" : 6471
+      }
+    }, {
+      "uid" : "689c3079785a9c5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632283382444,
+        "stop" : 1632283389145,
+        "duration" : 6701
+      }
+    }, {
+      "uid" : "921076effa6e238",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632283089094,
+        "stop" : 1632283095680,
+        "duration" : 6586
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b3782023d2de66b7.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

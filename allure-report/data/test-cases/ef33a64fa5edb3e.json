@@ -1,0 +1,106 @@
+{
+  "uid" : "ef33a64fa5edb3e",
+  "name" : "Verify that upon successful login user is redirected to the project creation page",
+  "fullName" : "Authentication.Verify that upon successful login user is redirected to the project creation page",
+  "historyId" : "f17d86b47d76e653aa7833e88ce4ecef",
+  "time" : {
+    "start" : 1632420115269,
+    "stop" : 1632420124455,
+    "duration" : 9186
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Authentication"
+  }, {
+    "name" : "testClass",
+    "value" : "Authentication"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify that upon successful login user is redirected to the project creation page"
+  }, {
+    "name" : "package",
+    "value" : "Authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "784a486cf02e4770",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632419904308,
+        "stop" : 1632419913439,
+        "duration" : 9131
+      }
+    }, {
+      "uid" : "1e6f6cb87f40825c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632284847814,
+        "stop" : 1632284859614,
+        "duration" : 11800
+      }
+    }, {
+      "uid" : "d0f4ded78843ff00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632284612846,
+        "stop" : 1632284622005,
+        "duration" : 9159
+      }
+    }, {
+      "uid" : "5c681bfe1e6ef3a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632283715928,
+        "stop" : 1632283725172,
+        "duration" : 9244
+      }
+    }, {
+      "uid" : "2fec92e968949788",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632283389146,
+        "stop" : 1632283398277,
+        "duration" : 9131
+      }
+    }, {
+      "uid" : "9399e24789cf1f12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632283095681,
+        "stop" : 1632283104826,
+        "duration" : 9145
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef33a64fa5edb3e.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

@@ -1,0 +1,31 @@
+[ {
+  "uid" : "b3782023d2de66b7",
+  "name" : "Verify that user can successfully login with email that was just registered",
+  "time" : {
+    "start" : 1632420108226,
+    "stop" : 1632420115268,
+    "duration" : 7042
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9987c13fb4815116",
+  "name" : "Verify that the user cannot login using an invalid email address",
+  "time" : {
+    "start" : 1632420124455,
+    "stop" : 1632420130689,
+    "duration" : 6234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef33a64fa5edb3e",
+  "name" : "Verify that upon successful login user is redirected to the project creation page",
+  "time" : {
+    "start" : 1632420115269,
+    "stop" : 1632420124455,
+    "duration" : 9186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

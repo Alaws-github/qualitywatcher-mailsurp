@@ -1,0 +1,56 @@
+{
+  "uid" : "dafee4ae24047c9c",
+  "name" : "Verify that the user cannot login using an invalid email address",
+  "fullName" : "Authentication.Verify that the user cannot login using an invalid email address",
+  "historyId" : "b128307fcb1b17d8674f05f182fbe151",
+  "time" : {
+    "start" : 1632419913439,
+    "stop" : 1632419919858,
+    "duration" : 6419
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Authentication"
+  }, {
+    "name" : "testClass",
+    "value" : "Authentication"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify that the user cannot login using an invalid email address"
+  }, {
+    "name" : "package",
+    "value" : "Authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dafee4ae24047c9c.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

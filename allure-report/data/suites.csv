@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Sep 23 13:01:48 EST 2021","Thu Sep 23 13:01:55 EST 2021","7042","","Authentication","","Authentication","Verify that user can successfully login with email that was just registered","Verify that user can successfully login with email that was just registered",""
+"passed","Thu Sep 23 13:02:04 EST 2021","Thu Sep 23 13:02:10 EST 2021","6234","","Authentication","","Authentication","Verify that the user cannot login using an invalid email address","Verify that the user cannot login using an invalid email address",""
+"passed","Thu Sep 23 13:01:55 EST 2021","Thu Sep 23 13:02:04 EST 2021","9186","","Authentication","","Authentication","Verify that upon successful login user is redirected to the project creation page","Verify that upon successful login user is redirected to the project creation page",""

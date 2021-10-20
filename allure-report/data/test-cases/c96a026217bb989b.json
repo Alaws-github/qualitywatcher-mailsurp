@@ -1,0 +1,56 @@
+{
+  "uid" : "c96a026217bb989b",
+  "name" : "Verify that user can successfully login with email that was just registered",
+  "fullName" : "Authentication.Verify that user can successfully login with email that was just registered",
+  "historyId" : "f730b43f19b45b8f9dafe0367d955458",
+  "time" : {
+    "start" : 1632419897820,
+    "stop" : 1632419904307,
+    "duration" : 6487
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Authentication"
+  }, {
+    "name" : "testClass",
+    "value" : "Authentication"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify that user can successfully login with email that was just registered"
+  }, {
+    "name" : "package",
+    "value" : "Authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c96a026217bb989b.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

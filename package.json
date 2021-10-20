@@ -1,0 +1,37 @@
+{
+  "name": "qualitywatcher-automation",
+  "version": "1.0.0",
+  "description": "Automation Suite for QualityWatcher 2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "test-suites": "./node_modules/.bin/wdio wdio.conf.js --spec test-suites/*",
+    "auth": "./node_modules/.bin/wdio wdio.conf.js --suite auth",
+    "register": "./node_modules/.bin/wdio wdio.conf.js --suite register",
+    "forgotPassword": "./node_modules/.bin/wdio wdio.conf.js --suite forgotPassword"
+  },
+  "author": "QualityWorks Consulting Group",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.12.6",
+    "allure-commandline": "^2.13.8",
+    "mailslurp-client": "^8.9.1",
+    "webdriverio": "^7.12.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/register": "^7.15.3",
+    "@wdio/allure-reporter": "^7.12.5",
+    "@wdio/local-runner": "^7.12.5",
+    "@wdio/mocha-framework": "^7.12.5",
+    "@wdio/selenium-standalone-service": "^7.12.5",
+    "@wdio/spec-reporter": "^7.12.5",
+    "chai": "^4.3.4",
+    "chai-webdriverio": "^1.0.0",
+    "dotenv": "^10.0.0",
+    "mocha": "^9.1.1"
+  }
+}
+

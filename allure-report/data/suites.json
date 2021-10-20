@@ -1,0 +1,48 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Authentication",
+    "children" : [ {
+      "name" : "Verify that user can successfully login with email that was just registered",
+      "uid" : "b3782023d2de66b7",
+      "parentUid" : "42bb21a29215568c07256dc6d8f12d3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632420108226,
+        "stop" : 1632420115268,
+        "duration" : 7042
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Verify that upon successful login user is redirected to the project creation page",
+      "uid" : "ef33a64fa5edb3e",
+      "parentUid" : "42bb21a29215568c07256dc6d8f12d3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632420115269,
+        "stop" : 1632420124455,
+        "duration" : 9186
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Verify that the user cannot login using an invalid email address",
+      "uid" : "9987c13fb4815116",
+      "parentUid" : "42bb21a29215568c07256dc6d8f12d3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632420124455,
+        "stop" : 1632420130689,
+        "duration" : 6234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "42bb21a29215568c07256dc6d8f12d3c"
+  } ]
+}
